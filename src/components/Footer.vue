@@ -4,32 +4,32 @@
 
     <div>
       <ul class="flex justify-center my-6 space-x-1">
-        <li class="">
-          <a
-            href=""
+        <li>
+          <router-link
+            to="/"
             class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-1 rounded-md"
-            >Home</a
+            >Home</router-link
           >
         </li>
-        <li class="">
-          <a
-            href=""
+        <li>
+          <router-link
+            to="/travel"
             class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-1 rounded-md"
-            >Travel</a
+            >Travel</router-link
           >
         </li>
-        <li class="">
-          <a
-            href=""
+        <li>
+          <router-link
+            to="/about"
             class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-1 rounded-md"
-            >About</a
+            >About</router-link
           >
         </li>
-        <li class="">
-          <a
-            href=""
+        <li>
+          <router-link
+            to="/contact"
             class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-1 rounded-md"
-            >Contact</a
+            >Contact</router-link
           >
         </li>
       </ul>
