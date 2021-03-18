@@ -1,7 +1,9 @@
 <template>
   <div class="">
     <div class="container mx auto w-auto h-full items-center">
-      <div class="grid grid-cols-2 py-3 items-center gap-4 md:w-7/12 mx-auto">
+      <div
+        class="grid grid-cols-2 py-3 items-center gap-4 md:w-7/12 xl:w-7/12 mx-auto"
+      >
         <div class="">
           <img src="../assets/maldives.jpg" class="object-cover h-48" />
         </div>
