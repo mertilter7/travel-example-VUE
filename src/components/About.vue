@@ -3,11 +3,13 @@
     <div class="about text-center">
       <h2 class="text-center text-lg font-bold my-5">About US</h2>
 
-      <p class="text-md font-semibold text-justify mx-auto p-5">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-        corrupti vero blanditiis nemo minus dolor fugit autem laudantium ut
-        suscipit, neque, rem unde sint aliquid quisquam sunt eius distinctio
-        recusandae repellendus minima quibusdam provident voluptatem ipsum in?
+      <p class="text-md font-semibold text-justify mx-auto p-2 md:w-4/12">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ut ad
+        incidunt non, cupiditate numquam inventore quidem, dignissimos a beatae
+        eos! Voluptas fugiat saepe cum tempore odit quidem aliquid illo quas
+        reprehenderit minus, delectus, sunt atque exercitationem error
+        perferendis eius libero totam blanditiis ut! Nemo quis soluta illum
+        delectus minus.
       </p>
     </div>
   </div>
