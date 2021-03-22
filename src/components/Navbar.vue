@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <div class="bg-black text-white p-3 rounded-bl-full rounded-br-full">
-      <ul class="flex space-x-5 justify-center p-2">
+    <div class="bg-black text-white p-2 xl:rounded-bl-full xl:rounded-br-full">
+      <ul class="flex space-x-3 justify-center p-2">
         <li>
           <router-link
             to="/"

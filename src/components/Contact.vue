@@ -1,13 +1,14 @@
 <template>
   <div class="container h-full mx-auto">
+    <h2 class="font-bold text-center my-5 font-sans">Contact US</h2>
     <label class="my-11 flex flex-col justify-center">
-      <span class="text-gray-700">Email Address</span>
+      <span class="text-gray-700 font-sans">Email Address</span>
       <input
         type="email"
         class="p-2 form-input border rounded"
         placeholder="john@example.com"
       />
-      <span class="text-gray-700 m-3">Comment</span>
+      <span class="text-gray-700 m-3 font-sans">Comment</span>
       <textarea
         class="border rounded p-4 resize-none"
         placeholder="text area"
