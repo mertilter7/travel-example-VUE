@@ -18,6 +18,13 @@
         </li>
         <li>
           <router-link
+            to="/gallery"
+            class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-2 rounded-lg"
+            >Gallery</router-link
+          >
+        </li>
+        <li>
+          <router-link
             to="/about"
             class="hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 p-2 rounded-lg"
           >
