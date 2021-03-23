@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bg-black text-white inset-x-0 p-3 text-md text-center ">
+  <footer class="footer bg-black text-white inset-x-0 p-3 text-md text-center">
     <p class="py-2">COMPANY</p>
 
     <div>
@@ -64,5 +64,4 @@
 export default {};
 </script>
 <style scoped>
-
 </style>

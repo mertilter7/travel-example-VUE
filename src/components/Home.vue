@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-opacity-70 w-auto h-screen container mx-auto">
+  <div class="bg-opacity-70 h-full w-full container mx-auto">
     <div class="grid grid-cols-12">
-      <div class="col-span-12 flex justify-center h-96">
+      <div class="col-span-12 flex justify-center h-72">
         <img src="../assets/unnamed.jpg" alt="" />
       </div>
     </div>
     <div class="grid grid-cols-12">
       <div class="col-span-12 flex justify-center">
-        <p class="text-center">
+        <p class="text-center font-sans md:w-4/12 xl:w-4/12 2xl:w-4/12">
           <span class="text-purple-700">Lorem ipsum</span> dolor sit amet,
           consectetur adipisicing elit. Dolorem sint itaque soluta. Aliquam sit
           at illum, atque nulla sequi! Qui neque iusto, facilis eveniet nesciunt
@@ -17,7 +17,6 @@
           <span class="text-red-500"> provident?</span>
         </p>
       </div>
-      
     </div>
   </div>
 </template>

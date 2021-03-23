@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto xl:h-4/6 xl:w-7/12 md:h-4/6 md:w-7/12 sm:h-4/6 sm:w-7/12 bg-purple-300 flex justify-center rounded-2xl"
+    class="container mx-auto w-full h-full xl:h-4/6 xl:w-5/12 md:h-4/6 md:w-7/12 sm:h-4/6 sm:w-7/12 bg-purple-300 flex justify-center xl:rounded-2xl md:rounded-2xl"
   >
     <div>
       <h2 class="my-5 text-white font-bold text-2xl font-sans">Get Reserve</h2>
@@ -23,14 +23,20 @@
           </label>
           <p class="text-semibold text-white p-1">Travel Options</p>
           <label>
-            
             <select class="p-2 rounded-lg">
-              <option class="" v-for="(travel , id) in travels" :key="id">{{ travel }}</option>
+              <option class="" v-for="(travel, id) in travels" :key="id">
+                {{ travel }}
+              </option>
             </select>
           </label>
         </label>
 
-        <input type="date" id="datemin" min="now" class="focus:bg-red-300 text-black rounded-lg p-2" />
+        <input
+          type="date"
+          id="datemin"
+          min="now"
+          class="focus:bg-red-300 text-black rounded-lg p-2"
+        />
       </section>
       <button
         type="button"
@@ -61,17 +67,12 @@ export default {
   components: {},
   data() {
     return {
-      travels : ["Bali", "Maldives", "Bahamas", "Miami", "Mykonos" , "Rhodos"],
+      travels: ["Maldives", "Bali", "Bahamas", "Miami", "Mykonos", "Rhodos"],
       date: "",
       identify: "",
       mail: "",
     };
   },
-  methods : {
-    
-   
-     
-    
-  }
+  methods: {},
 };
 </script>

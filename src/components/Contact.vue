@@ -1,22 +1,26 @@
 <template>
-  <div class="container h-4/6 w-4/6 mx-auto bg-red-400 rounded-2xl ">
-    <h2 class="font-bold text-center my-5 font-sans text-white text-xl">Contact US</h2>
+  <div
+    class="container xl:h-4/6 xl:w-2/6 md:h-4/6 md:w-4/6 h-full w-full mx-auto bg-red-300 xl:rounded-2xl md:rounded-2xl"
+  >
+    <h2 class="font-bold text-center my-5 font-sans text-white text-xl">
+      Contact US
+    </h2>
     <label class="my-11 flex flex-col justify-center">
       <span class="text-white font-bold font-sans m-3">Email Address</span>
       <input
         type="email"
-        class="p-2 form-input border rounded-xl focus:outline-none bg-red-200 border-red-200"
+        class="p-3 mx-2 form-input border rounded-xl focus:outline-none bg-red-200 border-red-200"
         placeholder=""
       />
       <span class="text-white font-bold m-3 font-sans">Comment</span>
       <textarea
-        class="border rounded-xl p-4 resize-none bg-red-200 border-red-300 text-black text-md focus:outline-none"
+        class="border mx-2 rounded-xl p-4 resize-none bg-red-200 border-red-300 text-black text-md focus:outline-none"
         placeholder=""
       ></textarea>
     </label>
     <button
       type="button"
-      class="focus:outline-none text-white text-sm py-2.5 px-4 -my-7 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex "
+      class="focus:outline-none mx-2 text-white text-sm py-2.5 px-4 -my-7 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex"
     >
       <svg
         class="w-4 h-4 mr-2"
