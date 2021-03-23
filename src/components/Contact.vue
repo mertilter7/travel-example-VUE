@@ -1,22 +1,22 @@
 <template>
-  <div class="container h-full mx-auto">
-    <h2 class="font-bold text-center my-5 font-sans">Contact US</h2>
+  <div class="container h-4/6 w-4/6 mx-auto bg-red-400 rounded-2xl ">
+    <h2 class="font-bold text-center my-5 font-sans text-white text-xl">Contact US</h2>
     <label class="my-11 flex flex-col justify-center">
-      <span class="text-gray-700 font-sans">Email Address</span>
+      <span class="text-white font-bold font-sans m-3">Email Address</span>
       <input
         type="email"
-        class="p-2 form-input border rounded"
-        placeholder="john@example.com"
+        class="p-2 form-input border rounded-xl focus:outline-none bg-red-200 border-red-200"
+        placeholder=""
       />
-      <span class="text-gray-700 m-3 font-sans">Comment</span>
+      <span class="text-white font-bold m-3 font-sans">Comment</span>
       <textarea
-        class="border rounded p-4 resize-none"
-        placeholder="text area"
+        class="border rounded-xl p-4 resize-none bg-red-200 border-red-300 text-black text-md focus:outline-none"
+        placeholder=""
       ></textarea>
     </label>
     <button
       type="button"
-      class="focus:outline-none text-white text-sm py-2.5 px-5 -my-9 rounded-md bg-gray-700 hover:bg-gray-900 hover:shadow-lg flex items-center"
+      class="focus:outline-none text-white text-sm py-2.5 px-4 -my-7 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex "
     >
       <svg
         class="w-4 h-4 mr-2"
