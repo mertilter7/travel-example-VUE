@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto h-4/6 w-7/12 bg-purple-300 flex justify-center rounded-2xl"
+    class="container mx-auto xl:h-4/6 xl:w-7/12 md:h-4/6 md:w-7/12 sm:h-4/6 sm:w-7/12 bg-purple-300 flex justify-center rounded-2xl"
   >
     <div>
       <h2 class="my-5 text-white font-bold text-2xl font-sans">Get Reserve</h2>
