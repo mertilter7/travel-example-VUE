@@ -6,13 +6,13 @@
       Contact US
     </h2>
     <label class="my-11 flex flex-col justify-center">
-      <span class="text-white font-bold font-sans m-3">Email Address</span>
+      <span class="text-white font-bold font-sans mx-auto">Email Address</span>
       <input
         type="email"
         class="p-3 mx-2 form-input border rounded-xl focus:outline-none bg-red-200 border-red-200"
         placeholder=""
       />
-      <span class="text-white font-bold m-3 font-sans">Comment</span>
+      <span class="text-white font-bold m-3 font-sans mx-auto">Comment</span>
       <textarea
         class="border mx-2 rounded-xl p-4 resize-none bg-red-200 border-red-300 text-black text-md focus:outline-none"
         placeholder=""

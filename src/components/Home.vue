@@ -1,7 +1,7 @@
 <template>
   <div class="bg-opacity-70 h-full w-full container mx-auto">
     <div class="grid grid-cols-12">
-      <div class="col-span-12 flex justify-center h-72">
+      <div class="col-span-12 flex justify-center h-96">
         <img src="../assets/unnamed.jpg" alt="" />
       </div>
     </div>

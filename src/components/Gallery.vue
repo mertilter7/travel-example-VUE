@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div
-      class="container mx-auto w-auto h-full xl:w-7/12 items-center bg-blue-300 xl:rounded-2xl md:rounded-2xl"
+      class="container mx-auto w-auto h-full xl:w-6/12 items-center bg-blue-300 xl:rounded-2xl md:rounded-2xl"
     >
       <div
         class="grid grid-cols-2 py-3 items-center gap-4 md:w-7/12 xl:w-7/12 mx-auto"
